@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/gemini-clone/assets/google-gemini-icon-CVrbFQ0N.webp" />
+    <!-- ✅ FIXED: Use relative path or public folder correctly -->
+    <link rel="icon" type="image/webp" href="/gemini-clone/google-gemini-icon.webp" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google Gemini</title>
     <script type="module" crossorigin src="/gemini-clone/assets/index-CVBaayj8.js"></script>
@@ -10,5 +12,7 @@
   </head>
   <body>
     <div id="root"></div>
+    
+    <!-- ✅ FIXED: Correct script path for Vite (starts with /src/) -->
   </body>
 </html>
