@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Main.css';
 import { assets } from '../../assets/assets';
+import userImg from '../../assets/1.jpg';
 import generateGeminiResponse from '../../api/gemini';
 
 const Main = () => {
@@ -47,17 +48,16 @@ const Main = () => {
     };
   }, []);
 
-  useEffect(() => {
-    // Auto-scroll to the bottom of the chat
-    if (bottomRef.current) bottomRef.current.scrollIntoView({ behavior: 'smooth' });
-  }, [chatHistory]);
+  // useEffect(() => {
+  //   bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+  // }, [chatHistory]);
 
   return (
     <div className='main'>
       {/* Top Navbar */}
       <div className="nav">
         <p>Gemini</p>
-        <img src={assets.user_icon} alt="user" />
+         <img src={userImg} alt="user" />
       </div>
 
       <div className="main-container">
