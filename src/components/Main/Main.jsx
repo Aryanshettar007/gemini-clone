@@ -65,7 +65,7 @@ const Main = () => {
         {!hasStartedChat && (
           <>
             <div className="greet">
-              <p><span>Hello, Dev.</span></p>
+              <p><span>Hello,SHREYA </span></p>
               <p>How can I help you today?</p>
             </div>
 

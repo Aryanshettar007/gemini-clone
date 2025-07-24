@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Aryanshettar007.github.io/gemini-clone",
+  "homepage": "https://aryanshettar007.github.io/gemini-clone",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
