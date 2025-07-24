@@ -1,8 +1,7 @@
-// vite.config.js
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/gemini-clone/',  // 👈 important for GitHub Pages
   plugins: [react()],
-  base: '/gemini-clone/', // Add this line
-});
+})
