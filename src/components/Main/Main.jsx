@@ -57,7 +57,7 @@ const Main = () => {
       {/* Top Navbar */}
       <div className="nav">
         <p>Gemini</p>
-         <img src={userImg} alt="user" />
+         <img src={assets.user_icon} alt="user" />
       </div>
 
       <div className="main-container">
@@ -65,7 +65,7 @@ const Main = () => {
         {!hasStartedChat && (
           <>
             <div className="greet">
-              <p><span>Hello,SHREYA </span></p>
+              <p><span>Hello,Dev </span></p>
               <p>How can I help you today?</p>
             </div>
 
