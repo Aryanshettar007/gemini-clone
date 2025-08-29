@@ -1,7 +1,7 @@
-const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
+const APi_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
 const generateGeminiResponse = async (prompt) => {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${APi_KEY}`;
 
   const body = {
     contents: [
