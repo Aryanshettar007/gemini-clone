@@ -1,4 +1,4 @@
-#env
+#env description: Environment variables file
 .env
 # Logs
 logs
